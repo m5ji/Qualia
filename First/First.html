@@ -1,4 +1,6 @@
+
 <head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
   <title>First</title>
 </head>
 
@@ -10,9 +12,9 @@
 </body>
 
 <template name="RSP">
-  <button class="rock">Rock</button>
-  <button class="scissor">Scissor</button>
-  <button class="paper">Paper</button>
+  <button class="rock btn-default btn-lg">Rock</button>
+  <button class="scissor btn-default btn-lg">Scissor</button>
+  <button class="paper btn-default btn-lg">Paper</button>
   
-  <p>You are a {{output}}</p>
+  <p class="lead">You are a <strong>{{output}}</strong></p>
 </template>
