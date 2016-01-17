@@ -1,0 +1,18 @@
+<head>
+  <title>First</title>
+</head>
+
+<body>
+  <h1>Hey Player!</h1>
+  <h2>Let's Play Rock Scissor Paper!</h2>
+
+  {{> RSP}}
+</body>
+
+<template name="RSP">
+  <button class="rock">Rock</button>
+  <button class="scissor">Scissor</button>
+  <button class="paper">Paper</button>
+  
+  <p>You are a {{output}}</p>
+</template>
